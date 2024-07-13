@@ -142,3 +142,76 @@ main {
   order: 0;
   spacing: 10px;
 }
+
+.app-categ-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: normal;
+  align-content: normal;
+}
+
+.app-categ-items {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  border: solid #333 4px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 2.5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #d8d6d8;
+}
+
+.app-container {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: normal;
+  align-content: normal;
+  font-family: Arial;
+  margin-bottom: 10px;
+
+}
+
+.app-items {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  padding-bottom: 5px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.app-items img {
+  width: 50px;
+}
+
+.app-text-container {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+  height: 50px;
+}
+
+
+.app-text-items {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
