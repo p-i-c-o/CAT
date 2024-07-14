@@ -202,6 +202,10 @@ main {
   color: #333;
 }
 
+.app-items img {
+  border-radius: 10px;
+}
+
 .app-text-container {
   display: inline-flex;
   flex-direction: column;
