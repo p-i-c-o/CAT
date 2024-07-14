@@ -148,8 +148,8 @@ main {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
-  align-items: normal;
   align-content: normal;
+  align-items: flex-start;  /* Adjust to flex-start to align items at the top */
 }
 
 .app-categ-items {
@@ -166,6 +166,7 @@ main {
   padding-left: 10px;
   padding-right: 10px;
   background: #d8d6d8;
+
 }
 
 .app-container {
@@ -194,6 +195,11 @@ main {
 
 .app-items img {
   width: 50px;
+}
+
+.app-items a {
+  text-decoration: none;
+  color: #333;
 }
 
 .app-text-container {
