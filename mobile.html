@@ -1,1 +1,48 @@
-<p style="text-align: center; font-size: 50px;">Please use Desktop</p>
+<style media="screen">
+  p {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .box {
+    line-height: 500px;
+    height: 500px;
+  }
+
+  .flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: normal;
+  height: 100%;
+}
+
+.flex-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+</style>
+
+<div class="flex-container">
+   <div class="flex-items">
+     <p>Please use desktop</p>
+   </div>
+   <div class="flex-items">
+     <img src="assets/laptop.png" alt="" width="200">
+   </div>
+</div>
